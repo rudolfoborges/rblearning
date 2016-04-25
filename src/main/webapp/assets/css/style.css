@@ -89,7 +89,45 @@ h1, h2, h3, h4, h5, h6 {
 .lessions {
   background: #fff;
   font-size: 14px;
-  font-weight: 400; }
+  font-weight: 400;
+  /*
+  ul.lessions-itens {
+    margin: 50px 0 0 0;
+
+    li {
+      display: inline-block;
+      margin-right: 35px;
+      margin-bottom: 35px;
+      width: 40%;
+      border: 1px solid #F5F5F5;
+      border-radius: 5px;
+
+      div {
+        min-height: 150px;
+      }
+
+      div.col-lession-color {
+        text-align: center;
+        color: #fff;
+        font-size: 70px;
+        padding-top: 15px;
+        width: 25%;
+        float: left;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+      }
+
+      div.col-lession-body {
+        width: 75%;
+        float: right;
+      }
+
+      div.col-lession-clean {
+        float: none;
+      }
+    }
+  }
+  */ }
   .lessions h1 {
     font-size: 24px;
     margin: 40px 0 0 0;
@@ -102,31 +140,6 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
     padding: 0;
     list-style: none; }
-  .lessions ul.lessions-itens {
-    margin: 50px 0 0 0; }
-    .lessions ul.lessions-itens li {
-      display: inline-block;
-      margin-right: 35px;
-      margin-bottom: 35px;
-      width: 40%;
-      border: 1px solid #F5F5F5;
-      border-radius: 5px; }
-      .lessions ul.lessions-itens li div {
-        min-height: 150px; }
-      .lessions ul.lessions-itens li div.col-lession-color {
-        text-align: center;
-        color: #fff;
-        font-size: 70px;
-        padding-top: 15px;
-        width: 25%;
-        float: left;
-        border-top-left-radius: 5px;
-        border-bottom-left-radius: 5px; }
-      .lessions ul.lessions-itens li div.col-lession-body {
-        width: 75%;
-        float: right; }
-      .lessions ul.lessions-itens li div.col-lession-clean {
-        float: none; }
   .lessions ul.topics {
     margin: 20px 0 0 0; }
     .lessions ul.topics li {
@@ -143,3 +156,22 @@ h1, h2, h3, h4, h5, h6 {
         margin-top: -20px;
         margin-left: 10px;
         min-height: 35px; }
+  .lessions ul.lessions-itens {
+    width: 100%;
+    margin-top: 30px; }
+    .lessions ul.lessions-itens li.lession-item div.lession-item-header div.lession-item-header-icon {
+      width: 10%;
+      height: 70px;
+      float: left;
+      text-align: center;
+      font-size: 50px;
+      border-radius: 10px;
+      color: #fff; }
+    .lessions ul.lessions-itens li.lession-item div.lession-item-header div.lession-item-header-title {
+      width: 90%;
+      height: 70px;
+      float: right;
+      color: #000; }
+    .lessions ul.lessions-itens li.lession-item div.lession-item-body {
+      margin-top: 5px;
+      border-top: 1px solid #F5F5F5; }
