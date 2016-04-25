@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>RB Learning</title>
+	
+	<link rel="stylesheet" href="assets/bower_components/normalize-css/normalize.css">
+	<link rel="stylesheet" href="assets/bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/bower_components/font-awesome/css/font-awesome.css">
+	<link rel="stylesheet" href="assets/bower_components/devicon/devicon.min.css">
+	
+	<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,300italic,400italic,600italic,700italic,900italic" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
+	
+	<link rel="stylesheet" href="assets/css/style.css">
+	
+	<script type="text/javascript" src="assets/bower_components/angular/angular.min.js"></script>
+	<script type="text/javascript" src="assets/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+	
+	
+	<script type="text/javascript" src="angular/angular.app.js"></script>
+	<script type="text/javascript" src="angular/controllers/angular.home.controller.js"></script>
+	
+<link >
+
+</head>
+<body ng-app="angular.rblearning">
+
+	<div class="navbar-wrapper">
+		<div class="navbar navbar-default navbar-static-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<img src="assets/images/logo.png" />
+				</div>
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Cursos</a></li>
+						<li><a href="#">Administração</a></li>
+						<li><a href="#">Contato</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div ui-view autoscroll="false"></div>
+
+</body>
+</html>

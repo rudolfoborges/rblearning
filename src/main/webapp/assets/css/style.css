@@ -1,0 +1,145 @@
+body {
+  font-family: 'Open Sans',sans-serif;
+  color: #333;
+  font-size: 1em;
+  line-height: 1.8;
+  background: #eee; }
+
+.container {
+  max-width: 980px; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Source Sans Pro',Arial,sans-serif;
+  font-weight: 700; }
+
+.navbar-wrapper {
+  background: #222;
+  width: 100%;
+  height: 90px; }
+
+.navbar {
+  width: 100%; }
+
+.navbar-default {
+  border: 0;
+  border-radius: 0;
+  background: #222;
+  text-transform: uppercase;
+  display: inline-block;
+  position: fixed;
+  color: #fff; }
+
+.navbar-header {
+  margin-top: 30px; }
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border: 0; }
+
+.navbar-nav {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+  float: right;
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-top: 20px; }
+
+.navbar-default .navbar-nav > li > a {
+  color: #fff; }
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > li > a:active, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+  color: #12bebd;
+  background: 0 0;
+  -webkit-transition: color .5s;
+  -moz-transition: color .5s;
+  transition: color .5s; }
+
+.about {
+  padding: 45px 0;
+  background: #FF7D7C;
+  color: #fff; }
+  .about h1 {
+    letter-spacing: -.02em;
+    font-size: 3.8em;
+    line-height: 50px;
+    text-align: center; }
+  .about p {
+    font-size: 1.6em;
+    margin: 25px 0;
+    text-align: justify; }
+  .about .about-actor {
+    margin-left: -20px; }
+  .about .image-actor {
+    margin-top: 45px; }
+  .about .btn-primary {
+    text-align: center;
+    display: inline-block;
+    color: #fff !important;
+    font-size: 1.6em;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: 0 0;
+    border: solid 1px #FFB9B8;
+    border-radius: 5px;
+    padding: 10px 23px;
+    margin-right: 10px;
+    width: 100%; }
+
+.lessions {
+  background: #fff;
+  font-size: 14px;
+  font-weight: 400; }
+  .lessions h1 {
+    font-size: 24px;
+    margin: 40px 0 0 0;
+    font-weight: inherit; }
+  .lessions h2 {
+    font-size: 18px;
+    margin: 5px 0 0 0;
+    font-weight: inherit; }
+  .lessions ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+  .lessions ul.lessions-itens {
+    margin: 50px 0 0 0; }
+    .lessions ul.lessions-itens li {
+      display: inline-block;
+      margin-right: 35px;
+      margin-bottom: 35px;
+      width: 40%;
+      border: 1px solid #F5F5F5;
+      border-radius: 5px; }
+      .lessions ul.lessions-itens li div {
+        min-height: 150px; }
+      .lessions ul.lessions-itens li div.col-lession-color {
+        text-align: center;
+        color: #fff;
+        font-size: 70px;
+        padding-top: 15px;
+        width: 25%;
+        float: left;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px; }
+      .lessions ul.lessions-itens li div.col-lession-body {
+        width: 75%;
+        float: right; }
+      .lessions ul.lessions-itens li div.col-lession-clean {
+        float: none; }
+  .lessions ul.topics {
+    margin: 20px 0 0 0; }
+    .lessions ul.topics li {
+      display: inline-block;
+      margin-right: 40px;
+      height: 35px; }
+      .lessions ul.topics li span.col-topic-color {
+        display: inline-block;
+        width: 10px;
+        height: 35px; }
+      .lessions ul.topics li span.col-topic-text {
+        display: inline-block;
+        vertical-align: middle;
+        margin-top: -20px;
+        margin-left: 10px;
+        min-height: 35px; }

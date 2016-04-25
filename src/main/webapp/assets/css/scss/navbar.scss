@@ -1,0 +1,52 @@
+$navbar-color: #222;
+
+.navbar-wrapper {
+  background: $navbar-color;
+  width: 100%;
+  height: 90px;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.navbar-default {
+  border: 0;
+  border-radius: 0;
+  background: $navbar-color;
+  text-transform: uppercase;
+  display: inline-block;
+  position: fixed;
+  color: #fff;
+}
+
+.navbar-header {
+  margin-top: 30px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: 0;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    float: right;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>li>a:active, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #12bebd;
+    background: 0 0;
+    -webkit-transition: color .5s;
+    -moz-transition: color .5s;
+    transition: color .5s;
+}

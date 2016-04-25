@@ -1,0 +1,77 @@
+<section id="about" class="about">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-xs-12 bounceInLeft animated">
+                <h1>Bem vindo ao RB Learning. Cursos online e gratuitos!</h1>
+                <p>O objetivo desse portal é compartilhar conhecimento no formato de guias, dicas, artigos, videos e cursos relacionados ao desenvolvimento de software.</p>
+                <div class="row">
+                	<div class="col-md-4 hidden-xs col-xs-12 scrollpoint sp-effect1">
+                		<img src="assets/images/rudolfoborges.png" class="image-bordered img-responsive image-actor" alt="Rudolfo Borges">
+                	</div>
+                	<div class="col-md-8 hidden-xs col-xs-12 scrollpoint sp-effect1 about-actor">
+						<p>O autor, Rudolfo Borges, possui 8+ anos de experiência em TI e ama compartilhar conhecimento. Bacharel em Ciência da Computação é entusiasta Java, JavaScript, NodeJS, Angular, Ruby e Mobile</p>	                		
+                	</div>
+                </div>
+                
+                <a href="#" class="btn btn-primary btn-about">Saiba mais sobre o autor</a>
+               </div>
+               <div class="col-md-6 col-xs-12 bounceInRight animated">
+                <div class="welcome-bg">
+                  <img src="assets/images/mac-and-coffee.png" alt="work space">
+                </div>
+               </div>
+		</div>
+	</div>
+</section>
+
+<section id="lessions" class="lessions">
+	<div class="container">
+		<h1><i class="fa fa-leanpub" aria-hidden="true"></i>  Material Disponível</h1>
+		<h2>Relação de guias, dicas, artigos, videos e cursos disponíveis.</h2>
+		<ul class="topics">
+			<li ng-repeat="topic in ctrl.topics">
+				<span class="col-topic-color" style="background-color: {{topic.tagColor}}"></span>
+				<span class="col-topic-text">{{topic.name}}</span>
+			</li>
+		</ul>
+		<div style="text-align: center;">
+			<ul class="lessions-itens">
+				<li>
+					<div class="col-lession-color" style="background-color: #3FC380">
+						<i class="devicon-nodejs-plain"></i>
+					</div>
+					<div class="col-lession-body"></div>
+					<div class="col-lession-clean"></div>
+				</li>
+				<li>
+					<div class="col-lession-color" style="background-color: #EC644B">
+						<i class="devicon-ruby-plain"></i>
+					</div>
+					<div class="col-lession-body"></div>
+					<div class="col-lession-clean"></div>
+				</li>
+				<li>
+					<div class="col-lession-color" style="background-color: #3498DB">
+						<i class="devicon-javascript-plain"></i>
+					</div>
+					<div class="col-lession-body"></div>
+					<div class="col-lession-clean"></div>
+				</li>
+				<li>
+					<div class="col-lession-color" style="background-color: #F39C12">
+						<i class="devicon-java-plain"></i>
+					</div>
+					<div class="col-lession-body"></div>
+					<div class="col-lession-clean"></div>
+				</li>
+				<li>
+					<div class="col-lession-color" style="background-color: #F5D76E">
+						<i class="fa fa-mobile"></i>
+					</div>
+					<div class="col-lession-body"></div>
+					<div class="col-lession-clean"></div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</section>

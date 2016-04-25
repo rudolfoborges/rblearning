@@ -1,0 +1,41 @@
+.about {
+    padding: 45px 0;
+    background: #FF7D7C;
+    color: #fff;
+
+    h1 {
+        letter-spacing: -.02em;
+        font-size: 3.8em;
+        line-height: 50px;
+        text-align: center;
+    }
+
+    p {
+      font-size: 1.6em;
+      margin: 25px 0;
+      text-align: justify;
+    }
+
+    .about-actor {
+      margin-left: -20px;
+    }
+
+    .image-actor {
+      margin-top: 45px;
+    }
+
+    .btn-primary {
+      text-align: center;
+      display: inline-block;
+      color: #fff!important;
+      font-size: 1.6em;
+      font-weight: 700;
+      text-transform: uppercase;
+      background: 0 0;
+      border: solid 1px #FFB9B8;
+      border-radius: 5px;
+      padding: 10px 23px;
+      margin-right: 10px;
+      width: 100%;
+    }
+}

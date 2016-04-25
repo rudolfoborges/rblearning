@@ -1,0 +1,27 @@
+{
+  "name": "RB Learning",
+  "authors": [
+    "Rudolfo Borges <oliveira.rudolfo@gmail.com>"
+  ],
+  "description": "RB Learning Project",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "font-awesome": "fontawesome#^4.6.1",
+    "normalize-css": "normalize.css#^4.1.1",
+    "angular": "^1.5.5",
+    "angular-ui-router": "^0.2.18",
+    "devicon": "*"
+  }
+}
